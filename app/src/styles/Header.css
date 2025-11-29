@@ -1,0 +1,35 @@
+.app-header {
+  padding: 2rem 1.5rem 1rem;
+  background: linear-gradient(135deg, #0d1117 0%, #1b2533 40%, #243b55 100%);
+  color: #f8fafc;
+}
+
+.app-header__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+
+.app-header__eyebrow {
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  color: rgba(248, 250, 252, 0.7);
+  margin: 0 0 0.5rem;
+}
+
+.app-header__title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.app-header__subtitle {
+  margin: 0.5rem 0 0;
+  max-width: 540px;
+  color: rgba(248, 250, 252, 0.8);
+}
